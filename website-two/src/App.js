@@ -1,9 +1,8 @@
 import React from "react";
-import Nav from "./components/Nav";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./components/Home"
-import About from "./components/About";
-import Projects from "./components/Projects"
+import NavLinks from "./components/NavLinks";
+import { BrowserRouter } from "react-router-dom";
+import RouterRoutes from "./components/RouterRoutes";
+import SubRoutes from "./components/SubRoutes";
 
 export default function App() {
   return (
@@ -14,15 +13,12 @@ export default function App() {
       <BrowserRouter>
         <nav>
           <p>This is the nav.</p>
-          <Nav />
+          <NavLinks />
         </nav>
         <main>
           <p>This is the main.</p>
-          <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route path="about" element={<About />} />
-            <Route path="projects" element={<Projects />} />
-          </Routes>
+          <RouterRoutes />
+          <SubRoutes />
         </main>
       </BrowserRouter>
       <footer>
