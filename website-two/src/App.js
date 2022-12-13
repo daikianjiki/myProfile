@@ -2,7 +2,6 @@ import React from "react";
 import NavLinks from "./components/NavLinks";
 import { BrowserRouter } from "react-router-dom";
 import RouterRoutes from "./components/RouterRoutes";
-import SubRoutes from "./components/SubRoutes";
 
 export default function App() {
   return (
@@ -18,7 +17,6 @@ export default function App() {
         <main>
           <p>This is the main.</p>
           <RouterRoutes />
-          <SubRoutes />
         </main>
       </BrowserRouter>
       <footer>

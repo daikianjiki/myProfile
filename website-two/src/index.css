@@ -15,6 +15,23 @@ body {
   max-width: 900px;
   margin: 0 auto;
 }
+/* .links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.links > * {
+  font-size: 1.5em;
+  border-radius: 10px;
+  background-color: grey;
+  padding: 10px 0;
+  margin-top: 5px;
+  width: 100%;
+  text-align: center;
+}
+.links > *:hover {
+  background-color: lightgray;
+} */
 /* -----------GRID LAYOUT----------- */
 
 .body {
