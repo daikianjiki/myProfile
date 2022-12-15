@@ -2,12 +2,13 @@ import React from "react";
 import NavLinks from "./components/NavLinks";
 import { BrowserRouter } from "react-router-dom";
 import RouterRoutes from "./components/RouterRoutes";
+import Header from "./components/Header";
 
 export default function App() {
   return (
     <div className="body">
       <header>
-        <p>This is the header.</p>
+        <Header />
       </header>
       <BrowserRouter>
         <nav>
